@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laundry Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="Navbar">
+    <h1>Logo</h1>
+    
+    <div id="nav1">
+       <a href="#" class="nav-link">Home</a>
+         <a href="#" class="nav-link">Services</a>
+         <a href="#" class="nav-link">About Us</a>
+         <a href="#" class="nav-link">Contact Us</a>
+    </div>
+    <div id="nav2"><button>Username</button></div> 
+     <div class="menu-btn">
+      <button class="menu-icon" onclick="toggleSidebar()">☰</button>
+  </div>
+</div>
+<div class="sidebar" id="sidebar">
+  <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</div>
+  <div class="Hero">
+      <div class="content">
+        <h1 class="title">Revitalize Your Clothes with Expert <span class="highlight" style="color: #157be1 ;">Laundry Services!</span>  </h1>
+        <p class="description">From premium dry cleaning to shirt wash and fold, we deliver clean and convenient. Schedule a pickup and rediscover the freshness of your clothes today! </p>
+        <button class="cta-button">Book a service today!</button>
+      </div>
+      <div class="image-container">
+        <img src="rb.png" alt="Laundry Service" class="image"/>
+      </div>
+  </div>
+  <script>
+    function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("active");
+    }
+</script>
+</body>
+</html>
